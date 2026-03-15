@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Guessing Game</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Guessing Game</h1>
+      <p>Guess a number between 1 and 100</p>
+      <input type="number" id="guess" />
+      <button onclick="checkGuess()">Submit</button>
+      <p id="feedback"></p>
+      <button id="restart" onclick="restartGame()">Restart Game</button>
+      <div id="previous-guesses-section" style="display: none;">
+      <h2>Previous Guesses:</h2>
+      <ul id="guessList"></ul>
+      </div>
+
+    </div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  </body>
+</html>

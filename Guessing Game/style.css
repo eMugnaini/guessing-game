@@ -1,0 +1,30 @@
+body {
+  background-color: cornflowerblue;
+  text-align: center;
+}
+
+h1, p, h2, ul {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  background-color: aliceblue;
+   width: 50%; /* Or a fixed pixel value like 400px */
+  margin: 20px auto; /* Centers the container horizontally and adds top/bottom margin */
+  padding: 20px; /* Add some padding for better aesthetics */
+  border-radius: 8px; /* Optional: adds rounded corners */
+
+}
+
+input {
+  margin: 10px;
+}
+
+#restart {
+  margin: 10px;
+}
+
+#guessList {
+  list-style-type: none;
+  padding: 0; 
+}
